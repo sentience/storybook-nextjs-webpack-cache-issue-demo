@@ -1,0 +1,17 @@
+# Ignore everything by default:
+*
+
+# Whitelist by file extension...
+!**/
+!*.ts
+!*.tsx
+!*.js
+!*.json
+!*.css
+!*.scss
+!*.html
+
+# Override and explicitly ignore...
+**/node_modules/
+**/dist/
+tsconfig.json
